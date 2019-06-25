@@ -1,4 +1,6 @@
-const showHelp = () => {
+
+
+export.showHelp = () => {
   //handle input
   //no input to see here
 
@@ -6,3 +8,5 @@ const showHelp = () => {
   //print output
   console.log(helpText);
 }
+
+showHelp();
